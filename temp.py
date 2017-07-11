@@ -1,3 +1,8 @@
+from w1thermsensor import W1ThermSensor
+from influxdb import InfluxDBClient
+
+
+
 #Define Sensor
 sensor = W1ThermSensor()
 #Grag Current Temp in F
